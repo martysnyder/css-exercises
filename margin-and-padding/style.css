@@ -1,28 +1,59 @@
+/*There is 8px between the edge of the card and its content (the blue sections).
+There is an 8px gap between each of the blue sections inside the card.
+The title of the card uses a 16px font.
+There are 8px between the title text and the edge of the title section.
+The content section has 16px space on the top and bottom, and 8px on either side.
+Everything inside the .button-container section is centered, and there is 8px padding.
+The Big Button is centered on its own line.
+The Big Button has 24px space on the sides, and 8px on top and bottom.*/
+
 body {
-    max-width: 600px;
-    margin: 0 auto;
+    background: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 8px
   }
   
-  .one {
-    background: pink;
-    border: 3px solid blue;
-    /* CHANGE ME */
-    padding: 0px;
-    margin: 0px;
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    border: #eee;
   }
   
-  .two {
-    background: lightblue;
-    border: 3px solid purple;
-    /* CHANGE ME */
-    margin-bottom: 0px;
+  .title {
+    background: #e3f4ff;
+    font-size: 16px;
+    padding: 8px;
   }
   
-  .three {
-    background: peachpuff;
-    border: 3px solid brown;
-    width: 200px;
-    /* CHANGE ME */
-    padding: 0px;
-    margin-left: 0px;
+  .content {
+    background: #e3f4ff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
+
   }
+  
+  .button-container {
+    background: #e3f4ff;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+    align-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
+    
+  }
+  
